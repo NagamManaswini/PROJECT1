@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitGrade – Repo Analyzer</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>GitGrade 🚀</h1>
+    <p>AI-powered GitHub Repository Evaluation</p>
+
+    <input type="text" id="repoUrl" placeholder="Paste GitHub Repository URL">
+
+    <button onclick="analyzeRepo()">Analyze Repository</button>
+
+    <div id="result">
+        <h3 id="score"></h3>
+        <p id="summary"></p>
+        <ul id="roadmap"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
